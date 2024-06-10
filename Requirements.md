@@ -84,14 +84,14 @@ There are a lot more than those, but these are the famous ones. Open them and ch
 
 ## Code layout
 
-All the code should be put inside the right places. Look at the following example
+All the code should be put inside the right places. Look at the following example (This example is for demo purposes, you can structure your folders in a similar manner)
 
 ```text
 src/
 ├─ pages/
-│  ├─ index.jsx           // Home page
+│  ├─ App.jsx           // Home page
 │  ├─ movies/
-│     ├─ index.jsx        // Movies page
+│     ├─ Movie.jsx        // Movies page
 │     ├─ [movieId].jsx    // Single movie page 
 ├─ components/
 │  ├─ Navbar/
@@ -121,53 +121,15 @@ This will also help you out when you apply to jobs because potential employers w
 - Create a new pull request from that issue and also assign it to yourself, Github will automatically create a branch for you and give you instructions how to check it out.
 - After finishing the work, push your code and assign the team leader on that pull request so they can review the code.
 
-**Commit Message Format**
+**Commits**
 
-After you finish wrapping up the Setup of Commitizen inside the setup page, you will have to use `git cz` when you make a new commit to follow this convention.
-
-Each commit message consists of a **header**, a **body** and a **footer**. The header has a special format that includes a **type** and a **subject**:
-
-```
-<type>: <subject>
-<BLANK LINE>
-<body>
-```
-
-The **header** is mandatory, while the **body** is optional but highly encouraged.
-
-**Type**
-
-Must be one of the following:
-
-- **Build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- **CI**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-- **Doc**: Documentation only changes
-- **Feat**: A new feature
-- **Fix**: A bug fix
-- **Perf**: A code change that improves performance
-- **Refactor**: A code change that neither fixes a bug nor adds a feature
-- **Style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- **Test**: Adding missing tests or correcting existing tests
-
-**Subject**
-
-The subject contains a succinct description of the change:
-
-- use the imperative, present tense: “change” not “changed” nor “changes”
-- don’t capitalize the first letter
-- no dot (.) at the end
-
-**Body**
-
-Just as in the **subject**, use the imperative, present tense: “change” not “changed” nor “changes”. The body should include the motivation for the change and contrast this with previous behavior.
-
-**All these things will already be handled for you using commitizen and commitlint (See the setup page)**
+Make sure you commit your work contineously so you don't lose your progress.
 
 ## Finalizing
 
 After finishing the project, do the following:
 
-1. Deploy the project on netlify so you can have a link to use it in your portfolio. Don't forget to add a link in your website that points to this project.
+1. Deploy the project on netlify or vercel so you can have a link to use it in your portfolio. Don't forget to add a link in your website that points to this project.
 2. Remove everything from this README.md file and add the following content to it:
     1. A screenshot of the website.
     2. Your project's name.

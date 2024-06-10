@@ -2,7 +2,7 @@
 
 ## Overview
 
-Working with APIs to make our websites interactive sits at the core of frontend web development. At the end, frontend websites work as interfaces that give us the ability to interace with data. All this data is coming from some form of an API.
+Working with APIs to make our websites interactive sits at the core of frontend web development. At the end, frontend websites work as interfaces that give us the ability to interact with data. All this data is coming from some form of an API.
 
 The API you will be interacting with is a movie API that can be used to retreive information about movies and actors. It is quite extensive and serves many purposes for your needs. In addition to that, it has quite a versatile searching mechanism that gives you the ability to reach for the information you need.
 
@@ -28,12 +28,10 @@ You will be able to practice:
 - Dividing tasks as components between the team and avoiding most conflict issues.
 - Using states and setters to change the state of the component.
 - Using props to pass data from one component to another.
-- Using static-site generation and server-side rendering to fetch data and add them to pages.
 - Preparing folder structure in a way that makes your, and everyone elses work easier.
 - Adding new dependencies and how to use them.
 - Reading the documentation of the packages you use.
 - Reading the documentation of APIs and how to understand them.
-- Using Authentication tokens in your
 - Using routes to navigate between pages.
 - Using local storage to store information.
 - Using UI Kits to make styling components easier.
@@ -55,5 +53,5 @@ In times of doubts remember these:
 - *`This project will be a huge addition to my already big list of projects that will increase my future prospects of getting hired`*
 - *`The internet is FULL of resources that any one can use to learn about anything.`*
 - *`I've worked on 3 projects. They seemed difficult in the beginning but I still aced them. I'm awesome!`*
-- *`3 months ago, my biggest issues and worries are how to write the correct class name to change an HTML element's color. Now, I'm dealing with bigger things because I've learned so much more. My current worries and issues will be my HTML and CSS of my future.`*
-- *`I'm not alone on this team. There are 2 more people who got my back.`*
+- *`2 months ago, my biggest issues and worries are how to write the correct class name to change an HTML element's color. Now, I'm dealing with bigger things because I've learned so much more. My current worries and issues will be my HTML and CSS of my future.`*
+- *`I'm not alone on this team.`*
